@@ -23,10 +23,7 @@ In this project, we perform time series analysis on New York City taxi demand da
 ## Setup
 
 To run the code in this repository, you'll need to set up a Python environment with the required libraries. You can use the provided `requirements.txt` file to install the dependencies.
-
-```bash
 pip install -r requirements.txt
-
 
 ## Loading and Preparing the Dataset
 
