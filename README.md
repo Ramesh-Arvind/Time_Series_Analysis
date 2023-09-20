@@ -42,10 +42,6 @@ To gain deeper insights from the time series data, we employ resampling techniqu
 
 The powerful Holoviews library is utilized to create interactive visualizations, allowing us to effectively explore and visualize the demand trends within the dataset.
 
-![NewYork_City_Seasonal](C:\\Users\\rnaagara\\Downloads\\New_york_city_daily_weekly_hourly.png)
-
-
-
 ## Time Series Decomposition
 
 We perform a seasonal decomposition of the time series data to extract key components, including trends, seasonality, and residuals. This decomposition helps us understand the underlying patterns in the data.
