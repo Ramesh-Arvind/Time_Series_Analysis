@@ -14,7 +14,8 @@ This repository contains Python code and data for performing time series analysi
 8. [Outlier Detection](#outlier-detection)
 9. [Visualization of Outliers](#visualization-of-outliers)
 10. [QQ Plot for Normality Testing](#qq-plot-for-normality-testing)
-11. [Conclusion](#conclusion)
+11. [Machine Learning and Anomaly techniques](#machine-learning-unsupervised-techniques-and-anamoly-detection)
+12. [Conclusion](#conclusion)
 
 ## Introduction
 
@@ -62,6 +63,31 @@ We visualize the identified outliers using different plots, such as box plots, v
 
 We employ quantile-quantile (QQ) plots to test if the data follows a normal distribution. This is important for selecting appropriate statistical models.
 
+## Machine Learning Unsupervised techniques and Anamoly Detection
+### Scenario 1: Outlier Detection with K-Nearest Neighbors (KNN)
+**Note**: In this scenario, we applied the K-Nearest Neighbors (KNN) algorithm to detect outliers in the taxi demand data. KNN is a robust method for identifying unusual data points by measuring their proximity to neighboring data points. We chose KNN for its simplicity and effectiveness in handling multi-dimensional data.
+
+### Scenario 2: Copula-Based Outlier Detection
+**Note**: Copula-based outlier detection is a powerful technique that captures complex dependencies between variables. We utilized this method to uncover anomalies in our time series data. Copulas provide a flexible framework for modeling dependencies and offer a deeper understanding of extreme events in the data.
+
+### Scenario 3: One-Class SVM (OCSVM) with Multiple Kernels
+**Note**: Our exploration of One-Class SVM (OCSVM) involved testing multiple kernels, including linear, polynomial, radial basis function (RBF), and sigmoid. By experimenting with various kernels, we aimed to find the one that best suited the underlying data distribution. OCSVM with the RBF kernel, for example, effectively captured non-linear relationships in the data, demonstrating the importance of kernel selection in anomaly detection.
+
+### Scenario 4: Anomaly Detection with PyCaret
+**Note**: PyCaret's low-code machine learning capabilities allowed us to easily experiment with different anomaly detection models. By leveraging PyCaret, we streamlined the model selection and evaluation process. The library's user-friendly interface and comprehensive model comparison enabled efficient identification of anomalies in our time series data.
+
+### Scenario 5: Time Series Forecasting with ARIMA
+**Note**: AutoRegressive Integrated Moving Average (ARIMA) modeling played a crucial role in forecasting taxi demand. By fitting an ARIMA model to historical data, we captured temporal dependencies and seasonal patterns. This forecasting technique provides valuable insights into future demand trends, aiding in decision-making and resource allocation.
+
+### Scenario 6: Time Series Forecasting with Facebook Prophet
+**Note**: Facebook Prophet emerged as a powerful tool for forecasting time series data with seasonality and holidays. Prophet's ability to handle these factors makes it an ideal choice for modeling and predicting taxi demand. Its flexibility and intuitive parameter tuning made it a valuable addition to our forecasting toolkit.
+
+
 ## Conclusion
 
 This repository provides a comprehensive guide and codebase for conducting time series analysis and anomaly detection on the New York City taxi demand dataset. The code can be customized and extended for similar time series analysis tasks.
+
+## Acknowledgments
+
+Special thanks to the New York City Taxi and Limousine Commission for providing the dataset.
+For holoviews visualization : Josh from kaggle
