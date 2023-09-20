@@ -40,7 +40,7 @@ Before diving into the analysis, it's essential to ensure data quality. We perfo
 
 To gain deeper insights from the time series data, we employ resampling techniques to convert the data into different time intervals, such as hourly, daily, and weekly. 
 
-The powerful Holoviews library is utilized to create interactive visualizations, allowing us to effectively explore and visualize the demand trends within the dataset ![here](images)
+The powerful Holoviews library is utilized to create interactive visualizations, allowing us to effectively explore and visualize the demand trends within the dataset [here](images)
 
 ## Time Series Decomposition
 
