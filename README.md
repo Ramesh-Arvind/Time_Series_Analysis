@@ -1,4 +1,4 @@
-# Time Series Analysis with Python
+# Time Series Analysis with Statistical methods and ML Forecasting for Anomaly Detection
 
 This repository contains Python code and data for performing time series analysis on New York City taxi demand data.
 
