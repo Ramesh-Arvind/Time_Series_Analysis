@@ -42,6 +42,9 @@ To gain deeper insights from the time series data, we employ resampling techniqu
 
 The powerful Holoviews library is utilized to create interactive visualizations, allowing us to effectively explore and visualize the demand trends within the dataset.
 
+![NewYork_City_Seasonal](C:\\Users\\rnaagara\\Downloads\\New_york_city_daily_weekly_hourly.png)
+
+
 
 ## Time Series Decomposition
 
@@ -84,8 +87,13 @@ We employ quantile-quantile (QQ) plots to test if the data follows a normal dist
 
 
 ## Conclusion
+In this analysis, we applied the Prophet time series forecasting model to predict future demand for New York City taxi services. After adapting the dataset and fitting the Prophet model, we extended the forecasting horizon to provide forecasts for an additional 7 days.
 
-This repository provides a comprehensive guide and codebase for conducting time series analysis and anomaly detection on the New York City taxi demand dataset. The code can be customized and extended for similar time series analysis tasks.
+The forecasted demand, represented by the red line in the plot, appears to capture the underlying patterns and trends in the data effectively. The shaded region between the lower and upper bounds of the forecast provides a measure of uncertainty.
+
+Key Findings:
+- The Prophet model demonstrates the ability to capture daily and weekly seasonality in the demand for taxi services.
+- The forecasted values align well with the observed data, indicating that the model can be useful for predicting future demand.
 
 ## Acknowledgments
 
